@@ -18,3 +18,4 @@ L’utente può consultare lo storico delle offerte inviate, verificarne lo stat
 Infine, il sistema deve generare un report sintetico, accessibile in un’apposita sezione, che mostri il numero totale di offerte inviate, suddivise per tipologia, il numero di offerte accettate per ciascuna tipologia e, per gli annunci di vendita accettati, il valore medio, minimo e massimo in euro delle offerte accettate. 
 Il report deve includere una rappresentazione grafica dei dati, realizzata con l’ausilio di una libreria come JFreeChart. Per i soli gruppi da 3 membri: il sistema deve permettere all’acquirente, in seguito all’accettazione di un’offerta e della consegna, di inserire una recensione nei confronti del venditore, specificando un commento testuale e un punteggio numerico. 
 Tutte le recensioni inviate sono consultabili in un’apposita sezione dell’interfaccia e collegate all’identità del venditore.
+.
