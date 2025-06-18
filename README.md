@@ -9,7 +9,7 @@ Gli utenti possono pubblicare annunci per oggetti personali, specificando:
 - **Categoria** (es: libri di testo, materiale informatico, abbigliamento, strumenti musicali)
 - **Tipologia annuncio**: vendita, scambio, regalo
 - **Prezzo** (se applicabile)
-- **Modalità di consegna**: sede universitaria, fascia oraria, ecc.
+- **Modalità di consegna**: sede universitaria, incontro, spedizione ecc...
 
 Gli altri utenti possono inviare offerte:
 - **Vendita**: confermare il prezzo o offrire meno
@@ -18,7 +18,7 @@ Gli altri utenti possono inviare offerte:
 
 Il proprietario seleziona l’offerta da accettare e aggiorna lo stato dell’annuncio (venduto, scambiato ecc).
 
-> **Extra**: Per gruppi da 3 membri, ogni transazione può essere recensita dall’acquirente.
+> **Extra**: Ogni transazione può essere recensita dall’acquirente.
 
 ## Funzionalità
 
@@ -30,17 +30,17 @@ Il proprietario seleziona l’offerta da accettare e aggiorna lo stato dell’an
   - Numero totale offerte inviate (per tipologia)
   - Numero offerte accettate (per tipologia)
   - Valore medio, minimo e massimo delle offerte accettate (solo vendita)
-  - **Grafico**: generato con JFreeChart
+  - **Grafico**: generato con JFreeChart # NON CONFERMATO L'USO #
 - **Recensioni (opzionale)**: l’acquirente lascia una recensione al termine della transazione
-  - Punteggio numerico e commento testuale
+  - Punteggio basato su un sistema di emoji e commento testuale
   - Tutte le recensioni sono consultabili e collegate all’identità del venditore
 
 ## Tecnologie Utilizzate
 
 - Java
 - JDBC/SQL
-- JFreeChart (per i grafici)
-- (Aggiungi qui eventuali altre librerie/framework usati)
+- JFreeChart (per i grafici) # NON CONFERMATO L'USO #
+- JavaFX (interfaccia grafica)
 
 ## Installazione
 
@@ -48,7 +48,7 @@ Il proprietario seleziona l’offerta da accettare e aggiorna lo stato dell’an
    ```bash
    git clone https://github.com/Carloj005/ProjettoJavaSqlUni.git
    ```
-2. Configura il database secondo le istruzioni in `/docs` (o aggiungile qui se non esiste una guida separata).
+2. Configura il database secondo le istruzioni in `/docs` (o aggiungile qui se non esiste una guida separata). # DA VEDERE #
 3. Importa il progetto in un IDE Java (es: IntelliJ, Eclipse).
 4. Aggiungi le librerie dipendenti (vedi sezione Tecnologie).
 
@@ -66,8 +66,8 @@ Contributi, segnalazioni di bug o proposte di nuove funzionalità sono benvenuti
 
 ## Licenza
 
-Specificare qui la licenza del progetto (es: MIT, GPL, ecc.)
+Specificare qui la licenza del progetto (es: MIT, GPL, ecc.) # NON SO ANCORA COSA METTERE #
 
 ---
 
-**Progetto sviluppato per l’insegnamento di Programmazione Object-Oriented – Università degli Studi di Napoli Federico II**
+**Progetto sviluppato per lo studio e l'apprendimento pratico di Programmazione Object-Oriented e Basi di Dati – Università degli Studi di Napoli Federico II**
