@@ -30,7 +30,7 @@ Il proprietario seleziona l’offerta da accettare e aggiorna lo stato dell’an
   - Numero totale offerte inviate (per tipologia)
   - Numero offerte accettate (per tipologia)
   - Valore medio, minimo e massimo delle offerte accettate (solo vendita)
-  - **Grafico**: generato con JFreeChart # NON CONFERMATO L'USO #
+  - **Grafico**: generato con JFreeChart 
 - **Recensioni (opzionale)**: l’acquirente lascia una recensione al termine della transazione
   - Punteggio basato su un sistema di emoji e commento testuale
   - Tutte le recensioni sono consultabili e collegate all’identità del venditore
@@ -39,7 +39,7 @@ Il proprietario seleziona l’offerta da accettare e aggiorna lo stato dell’an
 
 - Java
 - JDBC/SQL
-- JFreeChart (per i grafici) # NON CONFERMATO L'USO #
+- JFreeChart (per i grafici) 
 - JavaFX (interfaccia grafica)
 
 ## Installazione
