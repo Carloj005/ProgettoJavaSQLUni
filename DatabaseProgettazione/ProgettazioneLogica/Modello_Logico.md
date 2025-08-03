@@ -98,6 +98,7 @@ PREFERITI(ID_Preferiti, dataAggiunta, ID_Utente_FK, ID_Annuncio_FK)
    - Le recensioni possono essere lasciate solo a transazione completata.
    - Le chat possono essere create solo tra utenti con almeno un'interazione su un annuncio.
    - Una transazione può avvenire solo tra due utenti diversi (ID_Utente_Acquirente_FK ≠ ID_Utente_Venditore_FK).
+   - Un utente non può recensire il suo stesso account
 
 6. **Vincoli di Sicurezza**:
    - Le password degli utenti devono essere memorizzate in forma criptata.
