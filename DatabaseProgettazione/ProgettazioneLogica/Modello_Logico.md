@@ -95,7 +95,7 @@ PREFERITI(ID_Preferiti, dataAggiunta, ID_Utente_FK, ID_Annuncio_FK)
    - Un utente con statusAccount diverso da ATTIVO non può creare nuovi annunci.
    - Un annuncio con stato diverso da ATTIVO non può ricevere offerte.
    - Un utente può accettare una sola offerta per ogni annuncio.
-   - Le recensioni possono essere lasciate solo a transazione completata.
+   - Le recensioni possono essere lasciate solo a transazione con stato COMPLETATA.
    - Le chat possono essere create solo tra utenti con almeno un'interazione su un annuncio.
    - Una transazione può avvenire solo tra due utenti diversi (ID_Utente_Acquirente_FK ≠ ID_Utente_Venditore_FK).
    - Un utente non può recensire il suo stesso account
